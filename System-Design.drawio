@@ -1,103 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T09:29:45.827Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="KemOeQSMrIxn32B0YDgl" version="22.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T10:41:03.601Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="7YM4tU52OAeU8YT6FEkP" version="22.1.8" type="github">
   <diagram name="Page-1" id="GCuxLxOxD08WY95o4TsF">
-    <mxGraphModel dx="2284" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2154" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="XNfelhOZbHUISLfhdvYN-3" value="&lt;div&gt;AI Engine&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;glass=0;fillStyle=auto;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-580" y="380" width="690" height="780" as="geometry" />
+          <mxGeometry x="-450" y="380" width="460" height="690" as="geometry" />
         </mxCell>
         <mxCell id="XNfelhOZbHUISLfhdvYN-76" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#647687;" parent="XNfelhOZbHUISLfhdvYN-3" vertex="1">
-          <mxGeometry x="10" y="150" width="670" height="620" as="geometry" />
+          <mxGeometry x="10" y="150" width="440" height="530" as="geometry" />
         </mxCell>
         <mxCell id="1H__Z4LCt-5vf_XRQfI3-1" value="&lt;h1 style=&quot;line-height: 100%;&quot; align=&quot;center&quot;&gt;Standalone AI Engine&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;line-height: 120%;&quot;&gt;This is a prefabricated AI engine. A wrapper software (Preferably in Java Framework) surrounds this AI engine.&lt;/p&gt;&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;/p&gt;&lt;div align=&quot;center&quot;&gt;(Chat GPT + Java Software)&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#000000;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;fontColor=#333333;glass=0;shadow=0;" vertex="1" parent="XNfelhOZbHUISLfhdvYN-3">
-          <mxGeometry x="200.01" y="30" width="320" height="110" as="geometry" />
+          <mxGeometry x="60" y="30" width="320" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="1H__Z4LCt-5vf_XRQfI3-8" value="&lt;h3&gt;Recommendation System? - Function calling&lt;br&gt;&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="XNfelhOZbHUISLfhdvYN-3">
-          <mxGeometry x="215" y="330" width="260" height="40" as="geometry" />
+        <mxCell id="1H__Z4LCt-5vf_XRQfI3-8" value="&lt;h3&gt;Recommendation System? - Function calling/Vector DB&lt;br&gt;&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="XNfelhOZbHUISLfhdvYN-3">
+          <mxGeometry x="90" y="260" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1H__Z4LCt-5vf_XRQfI3-9" value="&lt;h3&gt;Predictive AI engine&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="XNfelhOZbHUISLfhdvYN-3">
-          <mxGeometry x="215" y="390" width="260" height="40" as="geometry" />
+          <mxGeometry x="90" y="320" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1H__Z4LCt-5vf_XRQfI3-10" value="&lt;h3&gt;Generative AI engine&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="XNfelhOZbHUISLfhdvYN-3">
-          <mxGeometry x="215" y="450" width="260" height="40" as="geometry" />
+          <mxGeometry x="90" y="380" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1H__Z4LCt-5vf_XRQfI3-11" value="&lt;h3&gt;Agent/Assistant engine&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="XNfelhOZbHUISLfhdvYN-3">
-          <mxGeometry x="215" y="510" width="260" height="40" as="geometry" />
+          <mxGeometry x="90" y="440" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1H__Z4LCt-5vf_XRQfI3-12" value="&lt;h3&gt;Fine tune engine&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="XNfelhOZbHUISLfhdvYN-3">
-          <mxGeometry x="215" y="570" width="260" height="40" as="geometry" />
+          <mxGeometry x="90" y="500" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1H__Z4LCt-5vf_XRQfI3-13" value="&lt;h3&gt;Vector DB?&amp;nbsp; &lt;br&gt;&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="XNfelhOZbHUISLfhdvYN-3">
-          <mxGeometry x="215" y="630" width="260" height="40" as="geometry" />
+          <mxGeometry x="90" y="560" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1H__Z4LCt-5vf_XRQfI3-14" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;" edge="1" parent="XNfelhOZbHUISLfhdvYN-3" target="1H__Z4LCt-5vf_XRQfI3-13">
+        <mxCell id="1H__Z4LCt-5vf_XRQfI3-14" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="XNfelhOZbHUISLfhdvYN-3" source="1H__Z4LCt-5vf_XRQfI3-8" target="1H__Z4LCt-5vf_XRQfI3-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="215" y="350" as="sourcePoint" />
-            <mxPoint x="165" y="400" as="targetPoint" />
+            <mxPoint x="215" y="280" as="sourcePoint" />
+            <mxPoint x="165" y="330" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="160" y="350" />
-              <mxPoint x="160" y="650" />
+              <mxPoint x="40" y="280" />
+              <mxPoint x="40" y="580" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1H__Z4LCt-5vf_XRQfI3-17" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="XNfelhOZbHUISLfhdvYN-3">
+        <mxCell id="1H__Z4LCt-5vf_XRQfI3-17" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="XNfelhOZbHUISLfhdvYN-3" target="1H__Z4LCt-5vf_XRQfI3-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="410" as="sourcePoint" />
-            <mxPoint x="215" y="409.8" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="165" y="409.8" />
-              <mxPoint x="165" y="409.8" />
-            </Array>
+            <mxPoint x="40" y="340" as="sourcePoint" />
+            <mxPoint x="60" y="340" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1H__Z4LCt-5vf_XRQfI3-18" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XNfelhOZbHUISLfhdvYN-3" target="1H__Z4LCt-5vf_XRQfI3-10">
+        <mxCell id="1H__Z4LCt-5vf_XRQfI3-18" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="XNfelhOZbHUISLfhdvYN-3" target="1H__Z4LCt-5vf_XRQfI3-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="470" as="sourcePoint" />
-            <mxPoint x="225" y="419.8" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="180" y="470" />
-              <mxPoint x="180" y="470" />
-            </Array>
+            <mxPoint x="40" y="400" as="sourcePoint" />
+            <mxPoint x="80" y="400" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1H__Z4LCt-5vf_XRQfI3-19" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XNfelhOZbHUISLfhdvYN-3">
+        <mxCell id="1H__Z4LCt-5vf_XRQfI3-22" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XNfelhOZbHUISLfhdvYN-3" target="1H__Z4LCt-5vf_XRQfI3-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="530" as="sourcePoint" />
-            <mxPoint x="215" y="530.3" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="180" y="529.3" />
-            </Array>
+            <mxPoint x="40" y="460" as="sourcePoint" />
+            <mxPoint x="100" y="410" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1H__Z4LCt-5vf_XRQfI3-20" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XNfelhOZbHUISLfhdvYN-3" target="1H__Z4LCt-5vf_XRQfI3-12">
+        <mxCell id="1H__Z4LCt-5vf_XRQfI3-23" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XNfelhOZbHUISLfhdvYN-3" target="1H__Z4LCt-5vf_XRQfI3-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="600" as="sourcePoint" />
-            <mxPoint x="225" y="540.3" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="160" y="590" />
-            </Array>
+            <mxPoint x="40" y="520" as="sourcePoint" />
+            <mxPoint x="100" y="470" as="targetPoint" />
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XNfelhOZbHUISLfhdvYN-2" value="&lt;h1 align=&quot;center&quot;&gt;Objectives/Mission&lt;br&gt;&lt;/h1&gt;&lt;blockquote&gt;&lt;div align=&quot;justify&quot;&gt;Our primary aim is to build an ERP application to jam-pack AI solutions and place them into the niches of a business.&lt;br&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;ol&gt;&lt;li&gt;API for fine-tuning into the existing business services/module&lt;br&gt;&lt;/li&gt;&lt;li&gt;Voice/text assistant&lt;/li&gt;&lt;li&gt;Generative, Predictive, and Traditional AI&lt;br&gt;&lt;/li&gt;&lt;li&gt;Wrapper Software for Security, Access, logging and telemetry&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=#D65822;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;labelBorderColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-830" y="20" width="370" height="210" as="geometry" />
+        <mxCell id="XNfelhOZbHUISLfhdvYN-2" value="&lt;h1 align=&quot;center&quot;&gt;Objectives/Mission&lt;br&gt;&lt;/h1&gt;&lt;blockquote&gt;&lt;div align=&quot;justify&quot;&gt;Our primary aim is to build an ERP application to jam-pack AI solutions and place them into the niches of a business.&lt;br&gt;&lt;/div&gt;&lt;/blockquote&gt;" style="text;html=1;strokeColor=#D65822;fillColor=#fff2cc;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;labelBorderColor=none;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-830" y="20" width="370" height="110" as="geometry" />
         </mxCell>
         <mxCell id="XNfelhOZbHUISLfhdvYN-11" value="User/Business Entity" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" parent="1" vertex="1">
-          <mxGeometry x="220" y="480" width="270" height="320" as="geometry" />
+          <mxGeometry x="220" y="510" width="270" height="270" as="geometry" />
         </mxCell>
         <mxCell id="XNfelhOZbHUISLfhdvYN-88" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#647687;" parent="XNfelhOZbHUISLfhdvYN-11" vertex="1">
-          <mxGeometry x="10" y="40" width="250" height="270" as="geometry" />
+          <mxGeometry x="10" y="40" width="250" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="XNfelhOZbHUISLfhdvYN-12" value="&lt;h2 style=&quot;line-height: 0%;&quot;&gt;UI (Input)&lt;/h2&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;The engine runs in background&lt;/div&gt;&lt;/li&gt;&lt;li&gt;No user interactions except message display&lt;br&gt;&lt;/li&gt;&lt;li&gt;Prompts to user for consent and other permanent actions&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="XNfelhOZbHUISLfhdvYN-11" vertex="1">
-          <mxGeometry x="20" y="50" width="230" height="160" as="geometry" />
+        <mxCell id="XNfelhOZbHUISLfhdvYN-12" value="&lt;h2 style=&quot;line-height: 0%;&quot;&gt;UI (Input)&lt;/h2&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;The engine runs in background &lt;br&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;Listeners to capture the events&lt;br&gt;&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;Prompts to user for consent and other permanent actions&lt;br&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="XNfelhOZbHUISLfhdvYN-11" vertex="1">
+          <mxGeometry x="20" y="50" width="230" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="XNfelhOZbHUISLfhdvYN-29" value="&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;/p&gt;&lt;h2&gt;UI (Output)&lt;/h2&gt;&lt;div align=&quot;left&quot;&gt;&lt;ol style=&quot;line-height: 100%;&quot;&gt;&lt;li&gt;Text&lt;/li&gt;&lt;li&gt;Voice&lt;/li&gt;&lt;li&gt;Video&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="XNfelhOZbHUISLfhdvYN-11" vertex="1">
-          <mxGeometry x="20" y="220" width="230" height="80" as="geometry" />
+        <mxCell id="XNfelhOZbHUISLfhdvYN-29" value="&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;/p&gt;&lt;h2&gt;UI (Output)&lt;/h2&gt;&lt;div&gt;&lt;ol style=&quot;line-height: 100%;&quot;&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;Text&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;Voice&lt;/div&gt;&lt;/li&gt;&lt;li&gt;&lt;div align=&quot;left&quot;&gt;Video&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="XNfelhOZbHUISLfhdvYN-11" vertex="1">
+          <mxGeometry x="20" y="170" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="1H__Z4LCt-5vf_XRQfI3-5" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="610" as="sourcePoint" />
-            <mxPoint x="100" y="610" as="targetPoint" />
+            <mxPoint x="-235" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
