@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T04:17:51.748Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="Dil9IkNtVnR_KHA9zvA6" version="22.1.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-14T04:30:38.074Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="p4mE2MJrmEuvz89Lt85r" version="22.1.8" type="github" pages="2">
   <diagram name="Page-1" id="GCuxLxOxD08WY95o4TsF">
-    <mxGraphModel dx="2154" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2154" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,7 +94,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="IqofV5swPOzBDh46DIPk" name="Page-2">
-    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -111,10 +111,10 @@
           <mxGeometry x="20" y="170" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7Y33LcFCYapHBjeH51eG-5" value="&lt;div&gt;AI Engine&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;glass=0;fillStyle=auto;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="570" y="90" width="460" height="490" as="geometry" />
+          <mxGeometry x="570" y="90" width="460" height="600" as="geometry" />
         </mxCell>
         <mxCell id="7Y33LcFCYapHBjeH51eG-6" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#647687;" vertex="1" parent="7Y33LcFCYapHBjeH51eG-5">
-          <mxGeometry x="10" y="151" width="440" height="329" as="geometry" />
+          <mxGeometry x="10" y="151" width="440" height="439" as="geometry" />
         </mxCell>
         <mxCell id="7Y33LcFCYapHBjeH51eG-7" value="&lt;h1 style=&quot;line-height: 100%;&quot; align=&quot;center&quot;&gt;Standalone AI Engine&lt;br&gt;&lt;/h1&gt;&lt;p style=&quot;line-height: 120%;&quot;&gt;This is a Trainable LLM engine. &lt;br&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;/p&gt;&lt;div align=&quot;center&quot;&gt;{Trainable (LLM) + (Optionally) Java Software}&lt;br&gt;&lt;/div&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;/p&gt;" style="text;html=1;strokeColor=#000000;fillColor=#f5f5f5;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=1;fontColor=#333333;glass=0;shadow=0;" vertex="1" parent="7Y33LcFCYapHBjeH51eG-5">
           <mxGeometry x="70" y="30" width="320" height="110" as="geometry" />
@@ -134,13 +134,13 @@
         <mxCell id="7Y33LcFCYapHBjeH51eG-11" value="&lt;h3&gt;Agent/Assistant engine&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="7Y33LcFCYapHBjeH51eG-5">
           <mxGeometry x="100" y="280" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7Y33LcFCYapHBjeH51eG-14" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="7Y33LcFCYapHBjeH51eG-5" source="7Y33LcFCYapHBjeH51eG-11" target="7Y33LcFCYapHBjeH51eG-10">
+        <mxCell id="7Y33LcFCYapHBjeH51eG-14" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="7Y33LcFCYapHBjeH51eG-5" source="7Y33LcFCYapHBjeH51eG-11" target="X4uBdDSrGkgzhg09zqyd-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="215" y="280" as="sourcePoint" />
             <mxPoint x="90" y="580" as="targetPoint" />
             <Array as="points">
               <mxPoint x="40" y="300" />
-              <mxPoint x="40" y="440" />
+              <mxPoint x="40" y="510" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -148,6 +148,16 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="40" y="370" as="sourcePoint" />
             <mxPoint x="60" y="340" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X4uBdDSrGkgzhg09zqyd-1" value="&lt;h3&gt;Inferential AI engine&lt;/h3&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="7Y33LcFCYapHBjeH51eG-5">
+          <mxGeometry x="100" y="490" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="X4uBdDSrGkgzhg09zqyd-2" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="7Y33LcFCYapHBjeH51eG-5" target="7Y33LcFCYapHBjeH51eG-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="440" as="sourcePoint" />
+            <mxPoint x="110" y="380" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
