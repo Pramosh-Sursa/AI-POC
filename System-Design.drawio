@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T11:39:23.488Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="naia4-whdCh7cHgSjWzQ" version="22.1.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-15T03:29:09.396Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="tQroyNtxcbSj3uJO8RIH" version="22.1.8" type="github" pages="2">
   <diagram name="Page-1" id="GCuxLxOxD08WY95o4TsF">
     <mxGraphModel dx="2154" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -183,6 +183,12 @@
               <mxPoint x="530" y="296" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MUORPn35FcL14R13qd3m-1" value="&lt;h1&gt;CHAT GPT&lt;br&gt;&lt;/h1&gt;&lt;p&gt;1. Create Assistant (It bears a unique ID)&lt;/p&gt;&lt;p&gt;2. We can run the assistant using this particular ID and other relevant data&lt;/p&gt;&lt;p&gt;&lt;b&gt;This ID and relevant data come out from the trained chat-GPT model&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Ref -&amp;gt; https://platform.openai.com/docs/assistants/overview&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=#FFCCCC;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="595" y="730" width="410" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="MUORPn35FcL14R13qd3m-2" value="&lt;h1&gt;LangChain AI&lt;br&gt;&lt;/h1&gt;&lt;p&gt;1. Wrap an AI engine in a tool receptacle&lt;/p&gt;&lt;p&gt;2. Provide your prompt&lt;/p&gt;&lt;p&gt;&lt;b&gt;The langchain wrapper will automatically pick up the appropriate AI engine&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Ref -&amp;gt; https://www.pinecone.io/learn/series/langchain/langchain-agents/&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=#FFCCCC;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="595" y="900" width="410" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
